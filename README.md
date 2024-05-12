@@ -5,7 +5,7 @@
 - [x] Make it deploy
 - [x] Scaffold basic ui
 - [x] Tidy up build process
-- [ ] set up a db (vercel postgres)
+- [x] set up a db (vercel postgres)
 - [ ] attach db to ui
 - [ ] add auth
 - [ ] add image upload (uploadthing)
