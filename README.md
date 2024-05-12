@@ -6,7 +6,7 @@
 - [x] Scaffold basic ui
 - [x] Tidy up build process
 - [x] set up a db (vercel postgres)
-- [ ] attach db to ui
+- [x] attach db to ui
 - [ ] add auth
 - [ ] add image upload (uploadthing)
 - [ ] error management with Sentry
