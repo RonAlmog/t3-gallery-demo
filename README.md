@@ -3,7 +3,8 @@
 ## TODO
 
 - [x] Make it deploy
-- [ ] Scaffold basic ui
+- [x] Scaffold basic ui
+- [x] Tidy up build process
 - [ ] set up a db (vercel postgres)
 - [ ] attach db to ui
 - [ ] add auth
