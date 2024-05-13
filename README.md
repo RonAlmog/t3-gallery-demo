@@ -7,8 +7,10 @@
 - [x] Tidy up build process
 - [x] set up a db (vercel postgres)
 - [x] attach db to ui
-- [ ] add auth
+- [x] add auth
 - [ ] add image upload (uploadthing)
+- [ ] 'taint' (server only)
+- [] use Next/Image component
 - [ ] error management with Sentry
 - [ ] routing/image page
 - [ ] delete button with server action (parallel route)
