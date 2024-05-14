@@ -75,7 +75,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://wingo-3p.sentry.io/issues/?project=4507254738845696">
+          <a href="https://wingo-multimedia.sentry.io/issues/?project=4507254738845696">
             Issues Page
           </a>
           .
