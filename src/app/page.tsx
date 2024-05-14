@@ -1,13 +1,11 @@
 import { SignedIn } from "@clerk/nextjs";
 import { SignedOut } from "@clerk/nextjs";
-import { db } from "~/server/db";
+import { getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic"; // avoid caching the page
 
 export default async function HomePage() {
-  const images = await db.query.images.findMany({
-    orderBy: (model, { desc }) => desc(model.id),
-  });
+  const images = await getMyImages();
 
   return (
     <main className="">
