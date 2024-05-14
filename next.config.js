@@ -18,7 +18,7 @@ const config = withSentryConfig(coreConfig, {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
-  org: "wingo-3p",
+  org: "wingo-multimedia",
   project: "t3-gallery-demo",
 
   // Only print logs for uploading source maps in CI
