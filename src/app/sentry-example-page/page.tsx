@@ -57,17 +57,18 @@ export default function Page() {
               async () => {
                 const res = await fetch("/api/sentry-example-api");
                 if (!res.ok) {
-                  throw new Error("Sentry Example Frontend Error (async)");
+                  throw new Error("Sentry Example Frontend Error (async2)");
                 }
               },
-            ).then(
-              () => {
-                console.log("ho");
-              },
-              () => {
-                console.log("haa");
-              },
             );
+            // .then(
+            //   () => {
+            //     console.log("ho");
+            //   },
+            //   () => {
+            //     console.log("haa");
+            //   },
+            // );
           }}
         >
           Throw error!
