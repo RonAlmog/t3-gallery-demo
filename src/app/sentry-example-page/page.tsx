@@ -48,28 +48,21 @@ export default function Page() {
             fontSize: "14px",
             margin: "18px",
           }}
-          onClick={() => {
-            Sentry.startSpan(
-              {
-                name: "Example Frontend Span",
-                op: "test",
-              },
-              async () => {
-                const res = await fetch("/api/sentry-example-api");
-                if (!res.ok) {
-                  throw new Error("Sentry Example Frontend Error (async2)");
-                }
-              },
-            );
-            // .then(
-            //   () => {
-            //     console.log("ho");
-            //   },
-            //   () => {
-            //     console.log("haa");
-            //   },
-            // );
-          }}
+          // onClick={() => {
+          //   Sentry.startSpan(
+          //     {
+          //       name: "Example Frontend Span",
+          //       op: "test",
+          //     },
+          //     async () => {
+          //       const res = await fetch("/api/sentry-example-api");
+          //       if (!res.ok) {
+          //         throw new Error("Sentry Example Frontend Error (async2)");
+          //       }
+          //     },
+          //   );
+
+          // }}
         >
           Throw error!
         </button>
